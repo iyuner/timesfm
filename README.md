@@ -1,5 +1,15 @@
 # TimesFM
 
+Update two demos:
+- add `temperature.ipynb` for `daily-min-temperatures.csv`. (Refer to https://github.com/gabaid971/ts-forecaster). The csv file can be downloaded [here](https://github.com/jbrownlee/Datasets/blob/master/daily-min-temperatures.csv).
+- add `traffic.ipynb` for `traffic.csv`. The csv file can be downloaded via `datasets/download_data.sh`.
+
+#### TODO:
+
+- [ ] Above examples, TimesFM outputs one dimension of values, like predicted temperature, also just single information input. Investigate if it can output multiple ones, like [x, y].
+
+
+----------------------
 TimesFM  (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google
 Research for time-series forecasting.
 
